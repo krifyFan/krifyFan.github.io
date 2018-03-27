@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eeeeee;
+}
+.box{
+    background-color: aliceblue;
+    width: 1000px;
+    margin: 10px auto;
+}
+.left-wrapper{
+    width: 70%;
+    display: inline-block;
+}
+.right-wrapper{
+    width: 30%;
+    display: inline-block;
+}
+section{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.personal-description-wrapper div,.work-experience-wrapper div{
+    display: inline-block;
+}
+.personal-description-wrapper .personal-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.personal-description-wrapper img{
+    width: 200px;
+    margin-top: -12px;
+}
+.personal-info{
+    vertical-align: middle;
+    margin-top: -200px;
+}
+.about-info{
+    padding: 10px;
+}
+.about-info ul{
+    margin-left: 30px;
+}
+.work-experience-title{
+	display: block;
+}
